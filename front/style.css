@@ -1,0 +1,72 @@
+/* Cookie Banner CSS */
+#cookiesBanner {
+    position: fixed;
+    z-index: 2000;
+
+    width: 100%;
+    left: 0;
+    right: 0;
+
+    background: #FFFFFF;
+    color: #000;
+
+    text-align: center;
+
+    padding: 3px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    -webkit-box-shadow: 0px 1px 3px #818181;
+    -moz-box-shadow: 0px 1px 3px #818181;
+    box-shadow: 0px 1px 3px #818181;
+
+}
+
+/***************************************************/
+/*                   Bouton "Ok"                   */
+/***************************************************/
+#cookiesBanner .btn_ok {
+
+    display: inline-block;
+
+    text-decoration: none;
+    color: #000;
+    padding: 5px 8px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    background: #FFFFFF;
+    border: 1px solid #7a7a7a;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#cookiesBanner .btn_ok:hover {
+    background: #32843e;
+    color: #FFFFFF;
+}
+
+/***************************************************/
+/*             Bouton "en savoir plus"             */
+/***************************************************/
+#cookiesBanner .btn_plus {
+
+    display: inline-block;
+    color: #696969;
+    font-size: 12px;
+
+    text-decoration: none;
+}
+
+#cookiesBanner .btn_plus:hover {
+    text-decoration: underline;
+    color: #000;
+}

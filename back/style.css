@@ -1,0 +1,7 @@
+.perso {
+    display: block;
+}
+
+.perso.hidden {
+    display: none;
+}
