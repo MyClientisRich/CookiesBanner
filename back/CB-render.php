@@ -43,7 +43,10 @@ $place_opt = get_option('CB-place');
 				<td>
 					<select name="link" id="link">
 						<?php
-						$pages = get_posts(['post_type' => 'page']);
+						$pages = get_posts([
+							'post_type' => 'page',
+							'posts_per_page' => -1
+						]);
 
 						foreach($pages as $page) {
 
