@@ -6,13 +6,15 @@ var banner = document.getElementById('cookiesBanner'),
     },
     valide_cookie = function() {
         if(!cookieIsOk()) {
+
+            hideBanner();
+
             try{
                 localStorage.setItem('CB-valide', 'OK');
             } catch(e) {
                 console.log('LocalStorage n\'est pas disponible');
             }
 
-            hideBanner();
         }
 
         return false;
